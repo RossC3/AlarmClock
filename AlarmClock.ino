@@ -1,4 +1,3 @@
-
 const int buzzer = 9; 
 int setButton = 4;
 int hButton = 8;
@@ -26,7 +25,7 @@ void loop() {
     set = false;
   }
   if(digitalRead(setButton) == HIGH && set == false){
-    Serial.println(digitalRead(setButton));
+    
     delay(1000);
     settingTime();
     set = true;
