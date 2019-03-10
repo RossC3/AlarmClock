@@ -1,3 +1,4 @@
+//Counts hours and minutes instead of going off at a specified time
 const int buzzer = 9; 
 int setButton = 4;
 int hButton = 8;
